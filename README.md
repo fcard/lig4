@@ -53,31 +53,31 @@ Este macro atribui a um registrador de entrada o endereço de uma posição na m
 Atribui em `$t2` o endereço `&matrix[2][1]`, tomando em consideração que a posição horizontal vem primeiro antes da posição vertical.
 
 
-### load_blue_player
+### `load_blue_player`
 
 Atribui a um registrador o valor RGB da cor azul.
 
-### load_red_player
+### `load_red_player`
 
 Atribui a um registrador o valor RGB da cor vermelha.
 
-### print_str
+### `print_str`
 
 Recebe um endereço de uma string e a imprime para o usuário.
 
-### print_register
+### `print_register`
 
 Recebe um registrador e imprime seu valor númerico inteiro para o usuário.
 
-### print_register_char
+### `print_register_char`
 
 Recebe um registrador e imprime seu valor como caractere.
 
-### read_integer
+### `read_integer`
 
 Lê um valor inteiro apartir de um input do usuário e o atribui a um registrador.
 
-### exit_0
+### `exit_0`
 
 Termina a execução do programa com o valor 0.
 
