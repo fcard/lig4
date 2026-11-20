@@ -18,7 +18,6 @@ O Stack não é utilizado em nenhum momento, logo não é inicializado.
 
 As seguintes instruções foram adicionadas:
 
-|-------|--------|-------|
 | Nome  | Opcode | Funct |
 |-------|--------|-------|
 | addu  | 0x00   | 0x21  |
@@ -30,7 +29,6 @@ As seguintes instruções foram adicionadas:
 | andi  | 0x0c   | N/A   |
 | ori   | 0x0d   | N/A   |
 | lui   | 0x0f   | N/A   |
-|-------|--------|-------|
 
 `blez` e `bgtz` não foram utilizadas na versão final do programa.
 As instruções ditas sem overflow `addu` e `addiu` foram implementadas apenas como cópias das instruções com overflow,
