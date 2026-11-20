@@ -149,7 +149,7 @@ check_full:
 check_full.loop:
   addi $t0, $t0, -4
   lw $t1, 0($t0)
-  bne $t1, $zero check_full.loop.next
+  bne $t1, $zero, check_full.loop.next
   li $v0, 1
   jr $ra
 check_full.loop.next:
