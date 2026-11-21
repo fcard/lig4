@@ -37,7 +37,7 @@ check_victory:
 check_victory.check_horizontal:
   li $t2, 0
   move $t8, $gp
-  addi $t9, $t1, -4
+  addi $t9, $t1, -3
 check_victory.check_horizontal.outer_loop:
   li $t3, 0
 check_victory.check_horizontal.inner_loop:
@@ -63,7 +63,7 @@ check_victory.check_horizontal.inner_loop.end:
 check_victory.check_vertical:
   li $t2, 0
   move $t8, $gp
-  addi $t9, $t0, -4
+  addi $t9, $t0, -3
 check_victory.check_vertical.outer_loop:
   li $t3, 0
 check_victory.check_vertical.inner_loop:
@@ -88,8 +88,8 @@ check_victory.check_vertical.inner_loop.end:
 check_victory.check_diagonal:
   li $t2, 0
   move $t8, $gp
-  addi $t7, $t0, -4
-  addi $t9, $t1, -4
+  addi $t7, $t0, -3
+  addi $t9, $t1, -3
 check_victory.check_diagonal.outer_loop:
   li $t3, 0
 check_victory.check_diagonal.inner_loop:
@@ -115,8 +115,8 @@ check_victory.check_diagonal.inner_loop.end:
 check_victory.check_sec_diagonal:
   li $t2, 0
   add $t8, $gp, 128
-  addi $t7, $t0, -4
-  addi $t9, $t1, -4
+  addi $t7, $t0, -3
+  addi $t9, $t1, -3
 check_victory.check_sec_diagonal.outer_loop:
   li $t3, 0
 check_victory.check_sec_diagonal.inner_loop:
